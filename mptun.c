@@ -125,6 +125,7 @@ hash_key(const char * str, int sz) {
 // leftrotate function definition
 #define LEFTROTATE(x, c) (((x) << (c)) | ((x) >> (32 - (c))))
 
+
 static uint64_t
 hmac(uint64_t x, uint64_t y) {
 // Constants are the integer part of the sines of integers (in radians) * 2^32.
